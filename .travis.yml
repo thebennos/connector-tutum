@@ -5,3 +5,10 @@ env:
   - secure: Ew8rTbLy2nT7f7Q4t6M0ivDplcYpKRCktHF/SMOm2Ibj2aafUz2nB9iR9gy/aZ8Mx04Sdis17W3E3jWDSfwgW6Nmrf3vbZV0tBEds9llmVLJ2KDK6Jf1Ggw6yWuPjhx5Icfmd0sliE544scw11z3vh11T+OSvz+kXIx0xqtViIs=
   - secure: I9mb/DTmHINz1ChVII30hAGcDcP0pbeW/jXqY31DWQ1ti9UPTH2hcRwapzD6TchdxcZLiGlKMJJIM3woBr/uURBtLTfWiIltrxX9NGlIIVO5bqTWpX4axowEi8D03f8nsX/oDgtq0dS3ASXXgd/nnOFbWLyLZps6283Wr0/vXqw=
   - secure: C3d6yFHBK26eBm4DJ2al0Q9401tsJL5njknNAjDE23rD6v7npDTPl2nWlUWkV2YIVykl3mTVd9NnSylqSkQHlYOcF/q38JV9E3fg1fC4DJQR82ckWZoQ14yaTqakX4ldqQ9LgKnaoErNQoyY/l1DFxIyBRQUKHrlXyL4J/B2/Vo=
+deploy:
+  provider: rubygems
+  gem: factor-connector-tutm
+  api_key:
+    secure: T24epDVon+Cx5yVd02i1ToHjr5pWnMjTCyudzlAXLBF9Rtsta6N6O41RNuHk94KXzoyfS4r8snblzENqR4OFYGE7VkDR1S14nE1rJWM7O9H3ExJh+mPrGtZNQ2Iaxl/a6wGNUb8TQYQEV8v+Qdt7FyFvtESZxHbSClJ7ChOZ1v0=
+  on:
+    tags: true
